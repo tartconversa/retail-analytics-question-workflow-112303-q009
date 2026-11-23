@@ -1,0 +1,49 @@
+﻿request_id,requester,department,question_text,region_scope,period_start,period_end,request_state
+RQ-001,U-01,merchandising,Which stores need review?,R-S,2026-10-02,2026-11-02,clarify
+RQ-002,U-02,finance,Compare campaign weeks?,R-W,2026-10-03,2026-11-03,delivered
+RQ-003,U-03,store-ops,Why did conversion change?,R-N,2026-10-04,2026-11-04,new
+RQ-004,U-04,merchandising,Which stores need review?,R-S,2026-10-05,2026-11-05,clarify
+RQ-005,U-05,finance,Compare campaign weeks?,R-W,2026-10-06,2026-11-06,delivered
+RQ-006,U-06,store-ops,Why did conversion change?,R-N,2026-10-07,2026-11-07,new
+RQ-007,U-07,merchandising,Which stores need review?,R-S,2026-10-08,2026-11-08,clarify
+RQ-008,U-08,finance,Compare campaign weeks?,R-W,2026-10-09,2026-11-09,delivered
+RQ-009,U-09,store-ops,Why did conversion change?,R-N,2026-10-10,2026-11-10,new
+RQ-010,U-10,merchandising,Which stores need review?,R-S,2026-10-11,2026-11-11,clarify
+RQ-011,U-11,finance,Compare campaign weeks?,R-W,2026-10-12,2026-11-12,delivered
+RQ-012,U-12,store-ops,Why did conversion change?,R-N,2026-10-13,2026-11-13,new
+RQ-013,U-13,merchandising,Which stores need review?,R-S,2026-10-14,2026-11-14,clarify
+RQ-014,U-14,finance,Compare campaign weeks?,R-W,2026-10-15,2026-11-15,delivered
+RQ-015,U-15,store-ops,Why did conversion change?,R-N,2026-10-16,2026-11-16,new
+RQ-016,U-16,merchandising,Which stores need review?,R-S,2026-10-17,2026-11-17,clarify
+RQ-017,U-17,finance,Compare campaign weeks?,R-W,2026-10-18,2026-11-18,delivered
+RQ-018,U-18,store-ops,Why did conversion change?,R-N,2026-10-19,2026-11-19,new
+RQ-019,U-19,merchandising,Which stores need review?,R-S,2026-10-20,2026-11-20,clarify
+RQ-020,U-20,finance,Compare campaign weeks?,R-W,2026-10-01,2026-11-01,delivered
+RQ-021,U-21,store-ops,Why did conversion change?,R-N,2026-10-02,2026-11-02,new
+RQ-022,U-22,merchandising,Which stores need review?,R-S,2026-10-03,2026-11-03,clarify
+RQ-023,U-23,finance,Compare campaign weeks?,R-W,2026-10-04,2026-11-04,delivered
+RQ-024,U-24,store-ops,Why did conversion change?,R-N,2026-10-05,2026-11-05,new
+RQ-025,U-25,merchandising,Which stores need review?,R-S,2026-10-06,2026-11-06,clarify
+RQ-026,U-26,finance,Compare campaign weeks?,R-W,2026-10-07,2026-11-07,delivered
+RQ-027,U-27,store-ops,Why did conversion change?,R-N,2026-10-08,2026-11-08,new
+RQ-028,U-28,merchandising,Which stores need review?,R-S,2026-10-09,2026-11-09,clarify
+RQ-029,U-29,finance,Compare campaign weeks?,R-W,2026-10-10,2026-11-10,delivered
+RQ-030,U-30,store-ops,Why did conversion change?,R-N,2026-10-11,2026-11-11,new
+RQ-031,U-31,merchandising,Which stores need review?,R-S,2026-10-12,2026-11-12,clarify
+RQ-032,U-32,finance,Compare campaign weeks?,R-W,2026-10-13,2026-11-13,delivered
+RQ-033,U-33,store-ops,Why did conversion change?,R-N,2026-10-14,2026-11-14,new
+RQ-034,U-34,merchandising,Which stores need review?,R-S,2026-10-15,2026-11-15,clarify
+RQ-035,U-00,finance,Compare campaign weeks?,R-W,2026-10-16,2026-11-16,delivered
+RQ-036,U-01,store-ops,Why did conversion change?,R-N,2026-10-17,2026-11-17,new
+RQ-037,U-02,merchandising,Which stores need review?,R-S,2026-10-18,2026-11-18,clarify
+RQ-038,U-03,finance,Compare campaign weeks?,R-W,2026-10-19,2026-11-19,delivered
+RQ-039,U-04,store-ops,Why did conversion change?,R-N,2026-10-20,2026-11-20,new
+RQ-040,U-05,merchandising,Which stores need review?,R-S,2026-10-01,2026-11-01,clarify
+RQ-041,U-06,finance,Compare campaign weeks?,R-W,2026-10-02,2026-11-02,delivered
+RQ-042,U-07,store-ops,Why did conversion change?,R-N,2026-10-03,2026-11-03,new
+RQ-043,U-08,merchandising,Which stores need review?,R-S,2026-10-04,2026-11-04,clarify
+RQ-044,U-09,finance,Compare campaign weeks?,R-W,2026-10-05,2026-11-05,delivered
+RQ-045,U-10,store-ops,Why did conversion change?,R-N,2026-10-06,2026-11-06,new
+RQ-046,U-11,merchandising,Which stores need review?,R-S,2026-10-07,2026-11-07,clarify
+RQ-047,U-12,finance,Compare campaign weeks?,R-W,2026-10-08,2026-11-08,delivered
+RQ-048,U-13,store-ops,Why did conversion change?,R-N,2026-10-09,2026-11-09,new
