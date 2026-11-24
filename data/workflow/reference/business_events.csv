@@ -1,0 +1,7 @@
+event_id,region,event_type,event_name,start_date,end_date,description
+EV-N-CAMPAIGN,R-N,campaign,金秋会员周,2026-10-05,2026-10-11,北区会员积分翻倍与满减活动，覆盖全部北区门店。
+EV-S-CAMPAIGN,R-S,campaign,南区周年庆,2026-10-12,2026-10-18,南区周年庆主题活动，含线上线下联合券。
+EV-W-CAMPAIGN,R-W,campaign,西区家庭日,2026-10-19,2026-10-25,西区家庭客群主题活动。
+EV-N-ROADWORKS,R-N,traffic-disruption,北区地铁施工,2026-11-02,2026-11-20,北苑站与科技园店周边道路封闭施工，公交线路临时调整。
+EV-S-STOCK,R-S,supply-delay,南区仓配延迟,2026-10-20,2026-11-05,区域仓拣货能力下降，部分门店补货延迟。
+EV-W-RETURN,R-W,return-wave,西区尺码争议退货,2026-10-26,2026-11-08,一批次服装尺码标注争议引发集中退货。

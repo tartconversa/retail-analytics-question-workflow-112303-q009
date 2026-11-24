@@ -1,0 +1,11 @@
+metric_id,metric_name,definition_version,grain,owner,audience_departments,status,valid_from,valid_to,calculation_key,source_dataset_id,definition_text,personal_data
+M-SALES-FIN,net-sales,DEF-1,store-day,finance,finance;store-ops,active,2026-08-01,,sales_net,DS-STORE-DAILY,销售额=含税成交金额减退货金额；财务与门店运营用于经营复盘。,0
+M-SALES-MERCH,net-sales,DEF-2,store-day,merchandising,merchandising,active,2026-08-01,,sales_gross,DS-STORE-DAILY,销售额=商品成交毛额，不做退货冲减；商品部用于品类复盘。,0
+M-SALES-LEGACY,net-sales,DEF-0,sku-week,operations,store-ops,retired,2025-01-01,2025-12-31,sales_gross,DS-STORE-DAILY,旧口径，已停用，不能用于新结论。,0
+M-CONV-OPS,conversion,DEF-1,store-day,store-ops,store-ops;finance,active,2026-08-01,,conversion_store,DS-STORE-DAILY,到店转化率=成交笔数/到店人次，包含员工代客下单。,0
+M-CONV-MERCH,conversion,DEF-2,store-day,merchandising,merchandising,active,2026-08-01,,conversion_group,DS-STORE-DAILY,顾客到店转化率=顾客成交笔数/顾客到店人次，剔除员工代客下单。,0
+M-CONV-REVIEW,conversion,DEF-3,store-day,data,store-ops,review,2026-08-01,,conversion_group,DS-STORE-DAILY,候选口径，等待数据委员会确认，暂不可交付。,0
+M-AVAIL-OPS,availability,DEF-1,store-day,store-ops,store-ops;data,active,2026-08-01,,availability,DS-STORE-DAILY,有货率=1-缺货SKU数/在售SKU数，按门店日汇总。,0
+M-RETURN-FIN,return-rate,DEF-1,store-day,finance,finance;merchandising,active,2026-08-01,,return_rate,DS-STORE-DAILY,退货率=退货笔数/成交笔数。,0
+M-MEMBER-TXN,member-visits,DEF-1,store-day,data,finance;merchandising,active,2026-08-01,,member_visits,DS-MEMBER-DAILY,会员到店笔数，按门店日汇总；明细受个人数据授权约束，交付时只展示聚合值。,1
+M-MEMBER-OPS,member-visits,DEF-1,store-day,store-ops,store-ops,active,2026-08-01,,member_visits,DS-MEMBER-DAILY,会员到店笔数，按门店日汇总；仅供门店会员跟进，输出必须为聚合值且小样本受抑制。,1

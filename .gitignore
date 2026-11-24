@@ -2,3 +2,7 @@
 __pycache__/
 *.py[cod]
 .coverage
+*.egg-info/
+*.db
+*.db-wal
+*.db-shm

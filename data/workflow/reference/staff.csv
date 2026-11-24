@@ -1,0 +1,17 @@
+user_id,display_name,role,department,region_scope,personal_clearance,active
+U-101,林岚,store_manager,store-ops,R-N,1,1
+U-102,周远,store_manager,merchandising,R-S,0,1
+U-103,郑敏,store_manager,finance,R-W,0,1
+U-104,何川,store_manager,store-ops,R-S,0,1
+U-105,苏婉,store_manager,merchandising,R-N,1,1
+U-106,秦岚,store_manager,finance,R-W,1,1
+AN-101,江宁,analyst,data,ALL,0,1
+AN-102,沈舟,analyst,data,ALL,0,1
+GOV-101,顾言,data_governor,data,ALL,1,1
+GOV-102,唐宁,data_governor,data,ALL,1,1
+MGR-101,王玮,business_owner,store-ops,R-N,0,1
+MGR-102,陈立,business_owner,merchandising,R-S,0,1
+MGR-103,许清,business_owner,finance,R-W,0,1
+MGR-104,罗成,business_owner,store-ops,R-S,0,1
+MGR-105,韩梅,business_owner,merchandising,R-N,0,1
+MGR-106,赵庭,business_owner,store-ops,R-N,0,1

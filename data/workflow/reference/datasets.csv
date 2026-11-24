@@ -1,0 +1,4 @@
+dataset_id,dataset_name,description,sensitivity,source_tables,personal_data,owner,active
+DS-STORE-DAILY,门店日汇总,按门店与日期汇总的到店、成交、销售、退货、缺货数据。,internal,store_daily,0,data,1
+DS-MEMBER-DAILY,会员日明细,会员脱敏标识级别的到店消费明细，仅用于会员跟进场景。,personal,member_daily,1,data,1
+DS-FINANCE-LEDGER,财务总账摘录,成本与费用科目摘录，仅限成本复盘；当前未接入本应用的事实表。,restricted,,0,finance,1

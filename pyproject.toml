@@ -5,9 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "retail_analytics_question_workflow"
 version = "0.1.0"
-description = "本地合成零售运营资料"
+description = "门店经营数据问答到可复核业务结论（本地合成资料）"
 requires-python = ">=3.11,<3.15"
 dependencies = []
+
+[project.scripts]
+retail-workflow = "retail_analytics_question_workflow.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

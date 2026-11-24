@@ -1,0 +1,12 @@
+policy_id,dataset_id,region,role,department,purpose,min_clearance,decision,policy_version,valid_from,valid_to,note
+POL-SD-DIAG,DS-STORE-DAILY,*,*,*,diagnosis,0,allow,POL-2026-03,2026-01-01,,经营诊断可读取汇总门店日数据。
+POL-SD-PLAN,DS-STORE-DAILY,*,*,*,planning,0,allow,POL-2026-03,2026-01-01,,经营计划可使用汇总门店日数据。
+POL-SD-COST,DS-STORE-DAILY,*,*,*,cost-review,0,allow,POL-2026-03,2026-01-01,,成本复盘可使用汇总门店日数据。
+POL-SD-MEMBER,DS-STORE-DAILY,*,*,*,member-followup,0,deny,POL-2026-03,2026-01-01,,会员跟进必须使用个人数据集，不能用门店汇总数据替代。
+POL-MD-MGR,DS-MEMBER-DAILY,*,store_manager,*,member-followup,1,limit,POL-2026-04,2026-01-01,,仅有个人数据许可的门店负责人可申请，且只能使用经治理批准的门店聚合结果。
+POL-MD-OTHER,DS-MEMBER-DAILY,*,*,*,member-followup,0,deny,POL-2026-04,2026-01-01,,其他人员不得申请个人数据。
+POL-MD-DIAG,DS-MEMBER-DAILY,*,*,*,diagnosis,0,deny,POL-2026-04,2026-01-01,,一般经营诊断不得使用个人明细。
+POL-MD-PLAN,DS-MEMBER-DAILY,*,*,*,planning,0,deny,POL-2026-04,2026-01-01,,计划场景不得使用个人明细。
+POL-MD-COST,DS-MEMBER-DAILY,*,*,*,cost-review,0,deny,POL-2026-04,2026-01-01,,成本复盘不得使用个人明细。
+POL-FL-FIN,DS-FINANCE-LEDGER,*,store_manager,finance,cost-review,0,limit,POL-2026-02,2026-01-01,,财务门店负责人仅可在成本复盘中限定使用总账摘录。
+POL-FL-DENY,DS-FINANCE-LEDGER,*,*,*,*,0,deny,POL-2026-02,2026-01-01,,其他人员与用途不得读取财务总账。

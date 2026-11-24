@@ -1,0 +1,13 @@
+store_id,store_name,region,store_format,opened_on,active
+S-101,城南店,R-S,standard,2024-03-01,1
+S-102,湖畔店,R-S,compact,2024-03-01,1
+S-103,北站店,R-S,flagship,2024-03-01,1
+S-104,老城店,R-S,compact,2024-03-01,1
+W-201,西园店,R-W,standard,2024-03-01,1
+W-202,机场店,R-W,compact,2024-03-01,1
+W-203,高新店,R-W,flagship,2024-03-01,1
+W-204,滨河店,R-W,standard,2024-03-01,1
+N-301,北苑店,R-N,standard,2024-03-01,1
+N-302,学府店,R-N,compact,2024-03-01,1
+N-303,科技园店,R-N,flagship,2024-03-01,1
+N-304,河湾店,R-N,standard,2024-03-01,1
